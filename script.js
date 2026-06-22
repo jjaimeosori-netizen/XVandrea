@@ -140,10 +140,9 @@
 
     const parametros = new URLSearchParams(window.location.search);
 
-    const nombre = parametros.get("invitado") || "INVITADO ESPECIAL";
+   const nombre = parametros.get("nombre") || "INVITADO ESPECIAL".toUpperCase();
 
-    const cupos = invitados[nombre] || 1;
-
+    const cupos = invitados[nombre.toUpperCase()] || 1;
     const nombreEl = document.getElementById("nombreInvitado");
     const cuposEl = document.getElementById("cuposInvitado");
 
