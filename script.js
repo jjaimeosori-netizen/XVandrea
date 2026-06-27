@@ -136,6 +136,10 @@
         "ISABEL": 1,
         "SOFIA": 1,
         "FELIPE": 1
+        "MARIANGELICA": 1
+        "REY": 1
+        "EYLEEN Y JUAN": 2
+        "ALANIS Y JESUS": 2
     };
 
     const parametros = new URLSearchParams(window.location.search);
