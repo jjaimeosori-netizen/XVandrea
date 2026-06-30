@@ -140,6 +140,7 @@
         "REY": 1,
         "EYLEEN Y JUAN": 2,
         "ALANIS Y JESUS": 2,
+        "ANA Y FABIANA": 2,
     };
 
     const parametros = new URLSearchParams(window.location.search);
